@@ -792,19 +792,7 @@ service-3 .service-box .y-us-content h4 {
 }
 
 /* Responsive Styles */
-@media (max-width: 576px) {
-    .container-1 {
-        flex-direction: column; /* Stack on smaller screens */
-        display: block;
-    }
-    .right-part h2,p{
-        width: 100%;
-    }
-    .left-part input{
-        /* width: 100%;
-        display: block; */
-    }
-} */
+*/
 
 /* upper footer part css end */
 
@@ -958,5 +946,49 @@ h1{ padding: 0 0 30px; }
 }
 .topbar_new {
     background-color: #fff5de;
+}
+
+@media (max-width: 576px) {
+    .imput__main__ul{
+        flex-wrap: wrap;
+    }
+    .imput__main__ul > :first-child input {
+        border-radius: 0rem ;
+    }
+    .imput__main__ul >:nth-child(4){
+        width: 76%;
+    }
+    .imput__main__ul >:nth-child(5){
+      text-align: center;
+    }
+    .imput__main__ul >:nth-child(5) .btn{
+      border-radius: 1rem;
+      padding:  0.5rem 1rem;
+    }
+    
+
+    .container-1 {
+        flex-direction: column; /* Stack on smaller screens */
+        display: block;
+    }
+    .right-part h2,p{
+        width: 100%;
+    }
+    .left-part input{
+        /* width: 100%;
+        display: block; */
+    }
+} 
+.header-carousel .owl-nav{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    right: 0;
+    padding: 0 0.5rem;
+}
+@media only screen and (min-width:320px) and (max-width:375px){
+    .imput__main__ul >:nth-child(4){
+        width: 80%;
+    } 
 }
 /* technicial teams css code end */

@@ -18,12 +18,12 @@
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,6 +41,7 @@
         </div>
     </div>
     <!-- Spinner End -->
+     
 
 
     <!-- Topbar Start -->
@@ -48,13 +49,14 @@
         <div class="row align-items-center top-bar">
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
                 <a href="" class="navbar-brand m-0 p-0">
-                    <h1 class="text-primary m-0">Vpestify</h1>
+                    <!-- <h1 class="text-primary m-0">Vpestify</h1> -->
+                    <img src="img/main-logo.png" alt="" width="180px">
                 </a>
             </div>
             <div class="col-lg-9 col-md-12 text-end">
                 <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="bi bi-geo-alt"></i>
-                    <p class="m-0">554 Bhardwaj Floor ,Sector 39,Gurgaon-122022(HR)</p>
+                    <!-- <i class="bi bi-geo-alt"></i>
+                    <p class="m-0">554 Bhardwaj Floor ,Sector 39,Gurgaon-122022(HR)</p> -->
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="far fa-envelope-open text-primary me-2"></i>
@@ -81,8 +83,20 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav me-auto">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" >
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div >
+                        <!-- <i class="fa fa-phone-alt text-primary"></i> -->
+                        <!-- <i class="far fa-phone-alt fa-sm"></i> -->
+                        <i class="bi bi-telephone" style="color: #ffffff; font-size: 1.5rem;" ></i>
+                        <!-- <i class="far fa-phone-alt fa-lg" style="color: #ff4917;"></i> -->
+                    </div>
+                    <div class="ms-3">
+                        <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
+                        <h5 class="m-0 " style="color: #ffffff;">+91 9806161974</h5>
+                    </div>
+                </div>
+                <div class="navbar-nav ">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.htmlss" class="nav-item nav-link">About</a>
                     <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
@@ -97,18 +111,7 @@
                     </div>
                     <a href="contactee.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
-                    <div >
-                        <!-- <i class="fa fa-phone-alt text-primary"></i> -->
-                        <!-- <i class="far fa-phone-alt fa-sm"></i> -->
-                        <i class="bi bi-telephone" style="color: #ffffff; font-size: 1.5rem;" ></i>
-                        <!-- <i class="far fa-phone-alt fa-lg" style="color: #ff4917;"></i> -->
-                    </div>
-                    <div class="ms-3">
-                        <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
-                        <h5 class="m-0 " style="color: #ffffff;">+91 9806161974</h5>
-                    </div>
-                </div>
+              
             </div>
         </nav>
     </div>
@@ -119,7 +122,7 @@
     <div class="container-fluid p-0 ">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="img/carousel-4.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -127,7 +130,7 @@
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">BEST QUALITY </h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Pigeon Netting Services</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Our durable and reliable sports nets are crafted to withstand the demands of intense gameplay proving us to be the best sports nets services in Noida.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="background-color: #F0810F;">Read More</a>
                                 <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Book a Service</a>
                             </div>
                         </div>
@@ -135,7 +138,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -143,7 +146,7 @@
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">BEST QUALITY </h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Commercial Plumbing Services</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover reliable netting solutions as we offer high-quality products and professional installation. So, now whenever you search for best netting services near me, we are the answer!</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="background-color: #F0810F;>Read More</a>
                                 <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
@@ -208,7 +211,7 @@
     </div> -->
 
     <!-- every section form start -->
-    <div class="main_query_form container-fluid">
+    <div class="main_query_form container">
         <p class="main__line text-center">
             Get in touch with our customer care on 
             <span>
@@ -236,7 +239,7 @@
                     <option value="3">Three</option>
                   </select></li>
                 <li class="submit__btn__li">
-                    <button type="button" class="btn btn-primary">submit</button>
+                    <button type="button" class="btn btn-primary" style="background-color: #F0810F;">submit</button>
                 </li>
             </ul>
         </div>
@@ -253,66 +256,161 @@
                 </div>
             </div>
             <div class="col-md-12 col-lg-9">
-                <div class="ms-lg-5 ps-lg-5">
+                <div class="ms-lg-5">
                     <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
                         <h6 class="text-secondary text-uppercase">Our Services</h6>
                         <h1 class="mb-5">Explore Our Services</h1>
                     </div>
                     <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <div class="d-flex align-items-center justify-content-center mb-4" style="width: 100%; border: 3px solid #F0810F;">
                                 <!-- <i class="fa fa-water fa-2x text-primary"></i> -->
                                  <img src="img/service-1.jpg" alt="">
                             </div>
                             <h4 class="mb-3">Netting Service</h4>
                             <p>Vpestify provides expert netting solutions for balconies, invisible grills, bird spikes, and sports nets, ensuring safety, durability, and aesthetics.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
-                            <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Quality Service</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Customer Satisfaction</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Support 24/7</p>
+                            <a href="" class="btn bg-white text-black w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                         <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <div class="d-flex align-items-center justify-content-center mb-4" style="width: 100%;  border: 3px solid #F0810F;">
                                 <!-- <i class="fa fa-toilet fa-2x text-primary"></i> -->
                                 <img src="img/service-2.jpg" alt="">
                             </div>
                             <h4 class="mb-3">Invisible Grills</h4>
                             <p>Vpestify's invisible grills offer a stylish and secure way to protect your home, providing safety without obstructing your view.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
-                            <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Quality Service</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Customer Satisfaction</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Support 24/7</p>
+                            <a href="" class="btn bg-white text-black w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                         <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <div class="d-flex align-items-center justify-content-center mb-4" style="width: 100%;  border: 3px solid #F0810F;">
                                 <!-- <i class="fa fa-shower fa-2x text-primary"></i> -->
                                 <img src="img/service-3.jpg" alt="">
                             </div>
                             <h4 class="mb-3">Spike Services</h4>
                             <p>Vpestify's bird spike services effectively deter unwanted birds from your property, ensuring cleanliness and safety without harming the birds.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
-                            <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Quality Service</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Customer Satisfaction</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Support 24/7</p>
+                            <a href="" class="btn bg-white text-black w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                         <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <div class="d-flex align-items-center justify-content-center mb-4" style="width: 100%;  border: 3px solid #F0810F;">
                                 <!-- <i class="fa fa-tint fa-2x text-primary"></i> -->
                                 <img src="img/service-4.jpg" alt="">
                             </div>
                             <h4 class="mb-3">Sport Nets</h4>
                             <p>
                                 Vpestify’s sports nets provide durable safety solutions for playgrounds and sports facilities.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
-                            <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Quality Service</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Customer Satisfaction</p>
+                            <p class="text-black fw-medium"><i class="fa fa-check text-black me-2"></i>Support 24/7</p>
+                            <a href="" class="btn bg-white text-black w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+    <!-- about us section start -->
+
+
+
+
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img src="img/netting-image.jpg" class="img-fluid w-100 rounded-top bg-white" alt="Image">
+                        <img src="img/netting-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <h4 class="text-primary">About Us</h4>
+                    <h1 class="display-5 mb-4 fs-1">Our services excel in quality and satisfaction, driven by our experienced team.</h1>
+                    <p class="text ps-4 mb-4">There are primarily many key features which make our services stand out from the rest but there are some intrinsic factors which has helped us grow and maintain high level of service quality and customer satisfaction.
+                    </p>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-6 col-xl-5">
+                            <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Quality Assurance</p>
+                            <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Expertisw</p>
+                        </div>
+                        <div class="col-lg-6 col-xl-7">
+                            <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Customization</p>
+                            <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Customer Satisfaction</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
+                        <div class="col-xl-7 mb-5">
+                            <div class="about-customer d-flex position-relative">
+                                <img src="img/men1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0; width: 12%; border-radius: 50%;"  alt="Image">
+                                <img src="img/men2.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 45px; top: 0;width: 12%; border-radius: 50%;" alt="Image">
+                                <img src="img/men3.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 90px; top: 0;width: 12%;border-radius: 50%;" alt="Image">
+                                <img src="img/men4.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 135px; top: 0;width: 12%;border-radius: 50%;" alt="Image">
+                                <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
+                                    <p class="mb-0">5K+ Trusted</p>
+                                    <p class="mb-0">Global Customers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center align-items-center justify-content-center">
+                        <div class="col-sm-4">
+                            <div class="bg-primary rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">3</span>
+                                    <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">k+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0">Project Complete</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-dark rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">12</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">Years Of Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-primary rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">35</span>
+                                    <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0">Team Members</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- about us section end -->
 
     <!-- OUR SERVICES section End here -->
     <!-- Service End -->
@@ -327,7 +425,7 @@
                     <!-- <h1 class="mb-4">We Are Trusted Plumbing Company Since 1990</h1> -->
                     <p class="mb-4">
                     </p>
-                    <ul class="fw-medium text-primary check-list">
+                    <ul class="fw-medium text-black check-list">
                         <li>Elevate your space with our innovative invisible grill solutions. Crafted with premium materials, our sleek and modern invisible grills provide unobstructed views while ensuring safety and security. Also, Invisible Grill Services in Delhi are best renowned.</li>
                         <li>Utilizing high-quality materials and innovative designs to create sleek and secure invisible grill installations.</li>
                         <li>Discover reliable netting solutions as we offer high-quality products and professional installation. So, now whenever you search for best netting services near me, we are the answer.</li>
@@ -339,14 +437,14 @@
                         </div>
                         <div class="ms-3">
                             <!-- <p class="fs-5 fw-medium mb-2 text-white">Emergency 24/7</p> -->
-                            <h3 class="m-0 " style="color: white;">+91 9806161974</h3>
+                            <h3 class="m-0 " style="color: white;">+91 9806161974 <span style="font-size: 1rem;"> 24/7 Available</span></h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-4" style="min-height: 500px;">
                     <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
                         <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
-                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/carousel-1.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/carousel-4.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -513,10 +611,8 @@
 
 
 
-    <div class="container">
-        <!-- <div class="row text-center">
-            <h1>Our Team Style : Demo 67</h1>
-        </div> -->
+    <!-- <div class="container">
+        
 
 
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -605,7 +701,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -641,7 +737,7 @@
             <h3 class="text-white mb-0">24 Hours 7 Days a Week</h3>
         </div>
         <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="bg-light text-center p-5">
                         <h1 class="mb-4">Book For A Service</h1>
@@ -675,6 +771,47 @@
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
                                 </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="container">
+                <div class="row text-center">
+                    <!-- <div class="col-lg-12">
+                        <h1>Bootstrap Login Form Style : Demo 23</h1>
+                    </div> -->
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+                        <form class="form-horizontal">
+                            <div class="heading">Sign Up</div>
+                            <div class="form-group">
+                                <i class="fa fa-user"></i><input class="form-control" type="Name" placeholder="First and Last Name">
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-envelope"></i><input class="form-control" type="email" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-lock"></i><input class="form-control" type="password" placeholder="Password">
+                            </div>
+                            <div class="form-terms">
+                                  <input type="checkbox">
+                                  <span>I agree all statements in <a href="">Terms & Conditions</a></span>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-default text-center">Sign Up</button>
+                                <!-- <span class="form-login">Already Have account ? <a href="">Login</a></span> -->
+                            </div>
+                            <div class="form-footer text-center">
+                                <span>Sign up with social platforms</span>
+                                <ul class="social">
+                                    <li><a class="fab fa-facebook-f" href=""></a></li>
+                                    <li><a class="fab fa-twitter" href=""></a></li>
+                                    <li><a class="fab fa-instagram" href=""></a></li>
+                                    <li><a class="fab fa-pinterest" href=""></a></li>
+                                </ul>
                             </div>
                         </form>
                     </div>
@@ -909,7 +1046,10 @@
              
              <div class="right-part">
                  <h2 style="color: #F0810F;">Our Newsletter</h2>
-                 <p>Welcome to vpestify's Monthly Newsletter!</p>
+                 <p class="text-light"> 
+                <span>
+                    <i class="bi bi-calendar3"></i>
+                </span>Welcome to vpestify's Monthly Newsletter!</p>
              </div>
              <div class="left-part">
      
@@ -921,8 +1061,48 @@
      <!-- upper footer part html code End -->
 
 
+
+
+
+
+
+
+     <!-- pop-up button design code start-->
+
+
+
+     <div class="social-button" id="socialButton">+</div>
+<div class="social-popup" id="socialPopup">
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+</div>
+
+
+     <!-- pop-up button design code end -->
+
+
+
+  <!-- <div class="container-fluid">
+    <div class="row text-center">
+            <div class="col-lg-4">
+               
+            </div>
+            <div class="col-lg-8">
+                <h1 class="text-light">Get in touch with our customer care<br><span class="text-center"><h1 class="text-light">On</h1></span></h1>
+                <span class="text-center">
+                    <button type="button" class="btn btn-primary text-center" style="padding: 10px 80px; font-size: 1.5rem;">Primary</button>
+                </span>
+                    
+            </div>
+        
+    </div>
+  </div> -->
+
+
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
@@ -950,16 +1130,9 @@
                     <a class="btn btn-link" href="">Invisible Grills</a>
                     <a class="btn btn-link" href="">Spike Service</a>
                     <a class="btn btn-link" href="">Sport Nets</a>
-                    <!-- <a class="btn btn-link" href="">Broken Pipe</a> -->
+                    
                 </div>
-                <!-- <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div> -->
+                
             </div>
         </div>
         <div class="container">
@@ -969,13 +1142,120 @@
                         &copy; <a class="border-bottom" href="#">Vpestify</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        
                         Designed By <a class="border-bottom" href="">Robovolt Software Technology</a><a href="#"></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="container">
+        <!-- <div class="row text-center">
+            <h1>Footer Style : Demo 1</h1>
+        </div> -->
     </div>
+    <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget mb-lg-0 mb-5">
+                                <h5 class="logo text-uppercase mb-4"><a href="#">Vpestify</a></h5>
+                                <p class="mb-4">There are primarily many key features which make our services stand out from the rest but there are some intrinsic factors which has helped us grow and maintain high level of service quality and customer satisfaction.</p>
+                                <!-- <ul class="icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget mb-lg-0 mb-5">
+                                <h6 class="text-white text-uppercase mb-3">our services</h6>
+                                <ul class="newsfeed text-capitalize">
+                                    <li><a href="#">Invisible Grills</a></li>
+                                    <li><a href="#">Netting Services</a></li>
+                                    <li><a href="#">Spike Servives</a></li>
+                                    <li><a href="#">Sport Nets</a></li>
+                                    <!-- <li><a href="#">manage investment</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h6 class="text-white text-uppercase mb-3">contact us</h6>
+                                <ul class="contacts">
+                                    <li><i class="fas fa-map-marker-alt"></i> <span>E-60, Ground Floor, Chanakya Palace 1, Uttam Nagar, Delhi -110059</span></li>
+                                    <li><i class="fa fa-phone"></i> <a href="#">+91 9806161974</a></li>
+                                    <li><i class="far fa-envelope"></i> <a href="#">inquiry@vpestify.in</a></li>
+                                    <li><i class="far fa-envelope"></i> <a href="#">ecommercevpestify@gmail.com</a></li>
+                                    <li><i class="far fa-clock"></i> <span>Office Hours: 8AM - 11PM</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h6 class="text-white text-uppercase mb-4">Enquiry</h6>
+                                <div class="newsletter">
+                                    <p class="mb-4">Stay up to update with our latest news and products.</p>
+                                    <input type="email" class="form-control mb-3" placeholder="Your email address">
+                                    <button class="btn text-uppercase" type="submit">Subscribe now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-lg-0 col-md-6 mb-md-0 mb-2">
+                            <p class="m-0">© 2024 vpestify. All Rights Reserved.</p>
+                        </div>
+                        <!-- <div class="col-lg-6 col-md-6 text-capitalize text-md-end">
+                            <ul>
+                                <li class="list-inline-item"><a href="#">home</a></li>
+                                <li class="list-inline-item"><a href="#">about</a></li>
+                                <li class="list-inline-item"><a href="#">faqs</a></li>
+                                <li class="list-inline-item"><a href="#">contact</a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+        <!-- modal code html start -->
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- modal code html End -->
+
+
+
     <!-- Footer End -->
 
     <!-- whats app button start -->
@@ -987,7 +1267,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top" style="background-color: #F0810F;"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

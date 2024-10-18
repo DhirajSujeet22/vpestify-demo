@@ -173,3 +173,16 @@
     
 })(jQuery);
 
+
+
+
+// pop-up button js code start
+
+
+document.getElementById('socialButton').addEventListener('click', function() {
+    const popup = document.getElementById('socialPopup');
+    popup.style.display = (popup.style.display === 'block') ? 'none' : 'block';
+});
+
+// pop-up button js code end
+
